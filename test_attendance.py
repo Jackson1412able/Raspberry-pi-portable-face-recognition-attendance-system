@@ -30,7 +30,6 @@ lcd = LCD.Adafruit_CharLCD(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, lcd_d7,
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(23, GPIO.IN)
-GPIO.setup(24, GPIO.IN)
 
 while True:
     path_course = './course'
