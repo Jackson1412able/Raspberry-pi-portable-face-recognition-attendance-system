@@ -1,10 +1,12 @@
 # Raspberry pi portable face recognition attendance system
 A portable face recognition system created with a Raspberry Pi 3B+.
+
 ## Introduction
 The idea of this portable face recognition system was pioneered to replace the conventional
 paper-based attendance system in universities. This system implements the idea of selfie and
 Eigenface algorithm to recognize student faces in classes and saves the entire attendance details
 of the class in a file.
+
 ## Concept of project
 ### Student registration
 Since this is an attendance system, the students need to be registered to as database.
@@ -33,6 +35,7 @@ session.
 * [RPi.GPIO](https://pypi.python.org/pypi/RPi.GPIO)
 * [Picamera](https://picamera.readthedocs.io/en/)
 * [LCD_module](https://github.com/adafruit/Adafruit_Python_CharLCD)
+
 ## Parts used
 * Raspberry Pi 3B+
 * Raspberry Pi Camera Module v2
@@ -42,14 +45,28 @@ session.
 * USB Micro B Cable
 * Jumper cables
 * 1k Ohm resistor
+
 ## Connections of circuit
-* GPIO9        :  lcd_rs        
+* GPIO9     :  lcd_rs        
 * GPIO10    : lcd_en        
 * GPIO22    : lcd_d4        
 * GPIO27    : lcd_d5        
 * GPIO17    : lcd_d6        
 * GPIO18    : lcd_d7       
-* GPIO4       : lcd_backlight 
+* GPIO4     : lcd_backlight 
 * GPIO23    : Between pull up resistor output and mini pushbutton switch
+
+## Installing
+Just put all the scripts in any preferred directory, the scripts will do the job of creating other
+required directories.
+
+## Running the scripts
+For the registration of the students, the script test_register.py should be executed.
+```
+sudo python test_register.py
+```
+By executing this script, students can register by entering name, student id and registered
+course codes. Then, their portrait looks will be taken and stored in a folder that are named
+after their name and ID number.
 </br>
-Email me at jackson1412able@gmail.com if you have any questions regarding this project
+Email me at jackson1412able@gmail.com if you have any questions regarding this project.
