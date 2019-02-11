@@ -60,7 +60,7 @@ session.
 Just put all the scripts in any preferred directory, the scripts will do the job of creating other
 required directories.
 
-## Running the scripts
+## Usage
 ### Student registration
 For the registration of the students, the script test_register.py should be executed.
 ```
