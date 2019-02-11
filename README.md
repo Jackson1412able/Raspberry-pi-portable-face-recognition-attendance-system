@@ -61,6 +61,7 @@ Just put all the scripts in any preferred directory, the scripts will do the job
 required directories.
 
 ## Running the scripts
+### Student registration
 For the registration of the students, the script test_register.py should be executed.
 ```
 sudo python test_register.py
@@ -68,5 +69,28 @@ sudo python test_register.py
 By executing this script, students can register by entering name, student id and registered
 course codes. Then, their portrait looks will be taken and stored in a folder that are named
 after their name and ID number.
+### Image training
+After student registration, the images are required to be trained or processed. In order
+to train all the images, the script test_train.py should be executed.
+```
+sudo python test_train.py
+```
+By executing this script, all the images stored in the student database are trained by using
+Eigenface algorithm.
+### Attendance taking
+After training the all the student images, the image dataset is ready to be compared with.
+In order to start the attendance taking process, the script test_attendance has to be executed.
+```
+python test_attendance.py
+```
+By executing this script, the lecturers can input the course code and commence the attendance
+taking process. Students can then take their selfies using the device and these selfies are then
+compared to the trained image database. Then, the student will be prompted for confirmation for the
+result of the identity prediction. After students have finished taking their attendances, only the
+lecturer has the authority to exit the process. Upon exiting the process, an attendance file that
+lists the present and absent students will be created for that particular class session. Recognized
+students who did not register for the course code entered by the lecturer will be automatically removed
+by the system as well.
+
 </br>
 Email me at jackson1412able@gmail.com if you have any questions regarding this project.
