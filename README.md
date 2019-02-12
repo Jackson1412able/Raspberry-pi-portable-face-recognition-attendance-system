@@ -92,10 +92,11 @@ python test_attendance.py
 By executing this script, the lecturers can input the course code and commence the attendance
 taking process.</br>
 <img src="https://user-images.githubusercontent.com/46261099/52636866-b38b3780-2f08-11e9-8983-fc13cd87f235.jpg"/></br>
-Students can then take their selfies using the device and these selfies are then compared to
-the trained image database.</br>
+Students can then take their selfies using the device by pressing the push button. The capture selfies is then compared to
+the trained image data stored in test_training.xml.</br>
 <img src="https://user-images.githubusercontent.com/46261099/52637002-01a03b00-2f09-11e9-91f8-62044a7ead6f.jpg"  width="334" height="250" /></br>
-Then, the student will be prompted for confirmation for the result of the identity prediction.</br>
+Then, the student will be prompted for confirmation for the result of the identity prediction. Press the button if
+prediction is wrong in order to retake another selfie, or wait for 5 seconds to confirm the prediction is correct.</br>
 <img src="https://user-images.githubusercontent.com/46261099/52637117-53e15c00-2f09-11e9-85fa-cfbd5a94ab54.jpg"  width="504" height="220" /></br>
 The system will detect if there is no face in the captured image and also identified student face that are already
 marked as present.</br>
