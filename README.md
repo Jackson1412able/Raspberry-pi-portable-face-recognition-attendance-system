@@ -90,24 +90,23 @@ In order to start the attendance taking process, the script test_attendance has 
 python test_attendance.py
 ```
 By executing this script, the lecturers can input the course code and commence the attendance
-taking process.
-<img src="https://user-images.githubusercontent.com/46261099/52636866-b38b3780-2f08-11e9-8983-fc13cd87f235.jpg"/>
+taking process.</br>
+<img src="https://user-images.githubusercontent.com/46261099/52636866-b38b3780-2f08-11e9-8983-fc13cd87f235.jpg"/></br>
 Students can then take their selfies using the device and these selfies are then compared to
-the trained image database.
-<img src="https://user-images.githubusercontent.com/46261099/52637002-01a03b00-2f09-11e9-91f8-62044a7ead6f.jpg"  width="334" height="250" />
-Then, the student will be prompted for confirmation for the result of the identity prediction.
-<img src="https://user-images.githubusercontent.com/46261099/52637117-53e15c00-2f09-11e9-85fa-cfbd5a94ab54.jpg"  width="504" height="220" />
+the trained image database.</br>
+<img src="https://user-images.githubusercontent.com/46261099/52637002-01a03b00-2f09-11e9-91f8-62044a7ead6f.jpg"  width="334" height="250" /></br>
+Then, the student will be prompted for confirmation for the result of the identity prediction.</br>
+<img src="https://user-images.githubusercontent.com/46261099/52637117-53e15c00-2f09-11e9-85fa-cfbd5a94ab54.jpg"  width="504" height="220" /></br>
 The system will detect if there is no face in the captured image and also identified student face that are already
-marked as present.
-<img src="https://user-images.githubusercontent.com/46261099/52637277-c6523c00-2f09-11e9-8c03-81c012cece3c.jpg"  width="504" height="220" />
-<img src="https://user-images.githubusercontent.com/46261099/52637346-f7327100-2f09-11e9-9090-7aa2c142e634.jpg"  width="504" height="220" />
-After students have finished taking their attendances, only the
-lecturer has the authority to exit the process. Upon exiting the process, an attendance file that
-lists the present and absent students will be created for that particular class session. Recognized
-students who did not register for the course code entered by the lecturer will be automatically removed
-by the system as well.
+marked as present.</br>
+<img src="https://user-images.githubusercontent.com/46261099/52637277-c6523c00-2f09-11e9-8c03-81c012cece3c.jpg"  width="504" height="220" /></br>
+<img src="https://user-images.githubusercontent.com/46261099/52637346-f7327100-2f09-11e9-9090-7aa2c142e634.jpg"  width="504" height="220" /></br>
+After students have finished taking their attendances, only the lecturer has the authority to exit the
+process. Upon exiting the process, an attendance file that lists the present and absent students will be
+created for that particular class session. Recognized students who did not register for the course code
+entered by the lecturer will be automatically removed by the system as well.</br>
 <img src="https://user-images.githubusercontent.com/46261099/52637522-5f815280-2f0a-11e9-8344-ef45085a98e2.jpg"/>
-An example of the attendance text file:
+An example of the attendance text file:</br>
 <img src="https://user-images.githubusercontent.com/46261099/52637598-a53e1b00-2f0a-11e9-98d3-9b733358a9b5.jpg"/>
 </br>
 </br>
