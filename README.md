@@ -109,5 +109,6 @@ entered by the lecturer will be automatically removed by the system as well.</br
 An example of the attendance text file:</br>
 <img src="https://user-images.githubusercontent.com/46261099/52637598-a53e1b00-2f0a-11e9-98d3-9b733358a9b5.jpg"/>
 </br>
-</br>
-Email me at jackson1412able@gmail.com if you have any questions regarding this project.
+## Authors
+* Jackson - jackson1412able@gmail.com
+
